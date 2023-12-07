@@ -1,0 +1,111 @@
+What is selenium?
+
+ It is an open source automation testing tool/ Framework / Set of Library / Project / Api for
+ web based application testing Only.
+
+ Web Based Application - Selenium(90% Market working on Selenium many big organisation working
+ like google, facebook etc..)
+ Desktop Base application - QTP / UFT ($2000 to $4000) - Mercury, Hp
+ Database Application - Sql, MySql, Hadoop
+ Mobile Application - Robotium, Calabash, Appium
+ Web Services (REST / SOAP) - Postman, SOAP UI, Rest Assured
+
+ Selenium -2004 Developer name - Jason Huggins - thoughtwork.
+
+ Selenium Features
+ Mutli browser Support : IE, Edge, Chrome, FF, Safari Opera etc..
+ Mutli language Support : Java .jar, C# .dll, Ruby .gem, Python  .php, JS etc.
+ Mutli OS/ Platform Support : Win, Linux, mac, solaris, ios android etc.
+
+ Has 4 Component - IDE, RC, WebDriver, Grid
+ Selenium 1.0 - IDE + RC + Grid1
+ Selenium 2.0 - WebDriver + RC + - 2.51.1 was last version + Grid2
+ Selenium 3.0 - 3.141.59 - WebDriver + W3C Spec. Recommendation + Grid3
+ Selenium 4.0 - 4.15.0  - WebDriver _ W3C Spec. Recommendation + Grid4
+
+ What is an API?
+
+ Selenium We can use only 25% in our project.
+ Core Java - Environment Variable setup.
+ Intellij Idea - IDE
+ Maven / ANT / Gradle - Build Tools
+ JUnit / TestNG /  - Java Testing Framework
+ Cucumber - Testing Framework.
+ Extent Report / Allure Report
+ CICD - Jenkins
+  1. Xpath axis
+  	Self
+  	Parent
+  	Child
+  	Ancestor
+  	Descendant
+  	Following
+  	Following-sibling
+  	Preceding
+  	Preceding-sibling
+
+  2. Relative Locators
+      above
+      below
+      near
+      toRightOf
+      toLeftOf
+
+  3. CSS Selector
+
+  4. Building Utility class
+
+  5. Alert Interface
+  	5.1 switchTo().alert()
+  	5.2 accept()
+  	5.3 dismiss()
+  	5.4 alert().getText()
+  	5.5 alert().sendKeys()
+
+  6. Select Class
+  	6.1 selectByValue()
+  	6.2 selectByVisibleText()
+  	6.3 selectByIndex()
+  	6.4 getOptions()
+
+  7. Working With List of element
+
+  8. SwitchToWindowAndIframe
+  	8.1 getWindowHandle()
+  	8.2 getWindowHandles()
+  	8.3 switchTo().window()
+  	8.4 switchTo().frame()
+  	8.5 defaultContent()
+
+  9. JavaScriptExecutor (Interface, How to execute js functions)
+      9.1 executeScript()
+
+  10. Action Class (How to perform  Mouse Operations in Selenium WebDriver?)
+      10.1 Mouse Hover -MoveToElement
+      10.2 Right Click
+      10.3 Drag And Drop
+      10.4 Slider
+      10.5 Key Board Events
+
+  11. Selenium Waits
+      11.1 Implicitly Wait
+      11.2 Explicit Wait
+      11.3 Fluent Wait
+
+  12. How To Handle DatePicker in Selenium?
+
+  13. Maven - Intoduction
+  14. Automation Framework
+  15. TestNg Introduction
+  16. Page Object Model
+  	16.1 Create Maven Project
+  	16.2 Add all dependency (selenium-java, testng, commons-io)
+  	16.3 Creating packages
+  	    browserfactory - ManageBrowser
+  		pages
+  		propertyreader - PropertyReader
+  		utility - Utility
+  		testbase - BaseTest
+  		testng - TestNgIndroduction
+  		testsuite - LoginPageTest
+  		resources - propertiesfile - config.properties

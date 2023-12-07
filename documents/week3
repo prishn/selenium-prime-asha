@@ -1,0 +1,64 @@
+Revision.
+
+Introduction of Chropath
+
+1. Xpath axis
+	Self
+	Parent
+	Child
+	Ancestor
+	Descendant
+	Following
+	Following-sibling
+	Preceding
+	Preceding-sibling
+
+2. Relative Locators
+    above
+    below
+    near
+    toRightOf
+    toLeftOf
+
+3. CSS Selector
+
+4. Building Utility class
+
+5. Alert Interface
+	5.1 switchTo().alert()
+	5.2 accept()
+	5.3 dismiss()
+	5.4 alert().getText()
+	5.5 alert().sendKeys()
+
+6. Select Class
+	6.1 selectByValue()
+	6.2 selectByVisibleText()
+	6.3 selectByIndex()
+	6.4 getOptions()
+
+7. Working With List of element
+
+8. SwitchToWindowAndIframe
+	8.1 getWindowHandle()
+	8.2 getWindowHandles()
+	8.3 switchTo().window()
+	8.4 switchTo().frame()
+	8.5 defaultContent()
+
+9. JavaScriptExecutor (Interface, How to execute js functions)
+    9.1 executeScript()
+
+10. Action Class (How to perform  Mouse Operations in Selenium WebDriver?)
+    10.1 Mouse Hover -MoveToElement()
+    10.2 Right Click
+    10.3 Drag And Drop
+    10.4 Slider
+    10.5 Key Board Events
+
+11. Selenium Waits
+    11.1 Implicitly Wait
+    11.2 Explicit Wait
+    11.3 Fluent Wait
+
+12. How To Handle DatePicker in Selenium?

@@ -1,0 +1,41 @@
+Revision.
+
+Last Week Left Over:
+
+8. SwitchToWindowAndIframe
+	8.1 getWindowHandle()
+	8.2 getWindowHandles()
+	8.3 switchTo().window()
+	8.4 switchTo().frame()
+	8.5 defaultContent()
+
+9. JavaScriptExecutor (Interface, How to execute js functions)
+    9.1 executeScript()
+
+10. Action Class (How to perform  Mouse Operations in Selenium WebDriver?)
+    10.1 Mouse Hover - MoveToElement()
+    10.2 Right Click - contextClick()
+    10.3 Drag And Drop - dragAndDrop()
+    10.4 Slider - dragAndDropBy()
+    10.5 Key Board Events - keyDown() and keyUp()
+
+11. Selenium Waits
+    11.1 Implicitly Wait
+    11.2 Explicit Wait
+    11.3 Fluent Wait
+
+12. Maven - Introduction
+13. Automation Framework
+14. TestNg Introduction
+15. Page Object Model
+	15.1 Create Maven Project
+	15.2 Add all dependency (selenium-java, testng, commons-io)
+	15.3 Creating packages
+	    browserfactory - ManageBrowser
+		pages
+		propertyreader - PropertyReader
+		utility - Utility
+		testbase - BaseTest
+		testng - TestNgIndroduction
+		testsuite - LoginPageTest
+		resources - propertiesfile - config.properties
